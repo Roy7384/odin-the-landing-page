@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto', sans-serif;
+}
+
+.header p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.header, .top-content, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1F2937;
+    color: white;
+}
+
+.header, .top-content, .mid-content, .bot-content, .email-sub {padding: 0px 220px;}
+
+.h-links {
+    display: flex;
+    align-items: center;
+    gap: 30px   ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.top-content{
+    gap: 80px ;
+    padding-top: 50px;
+    padding-bottom: 110px;
+}
+
+
+.top-img{
+    display: flex;
+    justify-content: center;
+    background-color: #edb506;
+    height:300px;
+    width: 600px;
+    flex:1 1 auto;
+}
+
+.mid-content{
+    text-align: center;
+    margin: 0px 80px;
+    padding-bottom: 50px;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.cards {
+    display: flex;
+    gap: 28px  ;
+}
+
+.card {
+    height: 300px;
+}
+
+.bot-content{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    background-color: #E5E7EB;
+    padding:20px 350px;
+
+}
+.quote-from{
+    text-align: end;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+.email-sub{
+    display: flex;
+    background-color:#3882F6 ;
+    margin: 100px 220px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 17px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6 ;
+    border: none;
+    color: white;
+    width: 110px;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+
+.footer{
+    height: 40px;
+    justify-content: center;
+}
+
+/* {border: 2px solid red;}
